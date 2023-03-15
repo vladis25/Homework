@@ -1,0 +1,182 @@
+@import './sprite.css';
+@import './burger.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.head {
+    background: url(../Bg\ Dark2.svg);
+    background-size: cover;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .head header {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        font-weight: 200;
+        border: none;
+    }
+
+    .head ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        color: white;
+        margin: 0;
+        margin-top: 7px;
+        padding-bottom: 7px;
+        
+    }
+
+    .upper {
+        text-transform: uppercase;
+        font-size: 18px;
+
+    }
+
+    .phone strong {
+        padding-right: 20px;
+    }
+
+    .svg li {
+        display: flex;
+        font-weight: 600;
+        align-items: center;
+    }
+
+    .svg .help {
+        margin-right: 50px;
+        cursor: pointer;
+    }
+
+    .svg i {
+        margin-left: 10px;
+        display: block;
+    }
+    .kiu .upp {
+        display: none;
+    }
+        .small {
+        display: none;
+    }
+        .number {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+
+    .head header {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 200;
+            border: none;
+        }
+    .svg {
+        display: none;
+    }
+
+    .head ul {
+        display: flex;
+        list-style-type: none;
+        color: white;
+        margin: 0 auto;
+        margin-top: 7px;
+        padding-bottom: 4px;   
+    }
+    .bug {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .phone  {
+        margin-right: 20px;
+    }
+
+    .bug ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .kiu li {
+        margin-left: 40px;
+        display: flex;
+        font-weight: 600;
+        align-items: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .small {
+        display: none;
+    }
+
+    .upper {
+        display: none;
+    }
+    .number {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 499px) {
+    .container header img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        color: white;
+        text-align: left;
+        margin-right: 4px;
+    }
+    
+    header ul {
+        display: none;
+    }
+    header .smaller {
+        width: 100%;
+        justify-content:space-around;
+    }
+    
+    .container header .car {
+        display: none;
+    }
+    .smaller {
+        display: flex;
+        align-items: center;
+
+    }
+    .small {
+        display: flex;
+        text-align: left;
+        color: white;
+        margin-left: -40px;
+        margin-top: 15px;
+    }
+    .second button {
+        display: none;
+    }
+    .second .kiu {
+        display: none;
+    }
+    .number {
+        color: white;
+        list-style-type: none;
+        font-size: 14px;
+    }
+}
+.bg {
+    background-color: rgb(90, 167, 244);
+}
+

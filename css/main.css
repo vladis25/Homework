@@ -71,6 +71,9 @@ body {
         .number {
         display: none;
     }
+    header .svg {
+        display: none;
+    }
 
 }
 
@@ -87,6 +90,7 @@ body {
     .svg {
         display: none;
     }
+   
 
     .head ul {
         display: flex;
@@ -130,6 +134,7 @@ body {
     .number {
         display: none;
     }
+    
 
 }
 @media screen and (max-width: 499px) {
@@ -140,6 +145,9 @@ body {
         color: white;
         text-align: left;
         margin-right: 4px;
+    }
+    header.svg {
+        display: none;
     }
     
     header ul {

@@ -38,6 +38,9 @@
     color: black;
     text-transform: lowercase;
 }
+.container {
+    margin: 0;
+}
 
 .group ul {
     display: grid;
@@ -54,3 +57,66 @@
 .clap li {
     margin-bottom: 20px;
 }
+.bg3 {
+    background: url('../img/Bg2.svg');
+    background-size: cover;
+    background-position: -50px;
+    background-color: rgb(56, 124, 192);
+}
+.wrap {
+    padding: 20px;
+}
+.menu {
+    color: rgb(14, 131, 204);
+    text-transform: uppercase;
+    line-height: 40px;
+    background-color: rgb(203, 227, 233);
+    background-position-y: 100%;
+    font-size: 30px;
+    border-radius: 2px;
+    font-weight: 600;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.menu code {
+    color: rgb(14, 131, 204);
+    text-transform: lowercase;
+}
+.menu h2, p {
+    margin: 0 auto;
+}
+.menu img {
+    width:25px;
+    height: 100%;
+
+}
+.menu .fif {
+    color: red;
+    font-weight: 700;
+    font-size: 32px;
+    vertical-align: middle;
+}
+.menu .off {
+    color: red;
+    font-weight: 500;
+    font-size: 25px;
+    vertical-align: middle;
+
+}
+.menu p {
+    font-size: 22px;
+    font-weight: normal;
+}
+.form {
+    padding: 20px;
+}
+.form form{
+    justify-content: space-between;
+}
+.form form input {
+    margin-bottom: 20px;
+} 

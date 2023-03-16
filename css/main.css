@@ -1,5 +1,6 @@
 @import './sprite.css';
 @import './burger.css';
+@import './body.css';
 
 body {
     margin: 0;
@@ -178,5 +179,6 @@ body {
 }
 .bg {
     background-color: rgb(90, 167, 244);
+    box-shadow: 0px 5px 10px rgba(42, 42, 42,0.7);
 }
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Menu</title>
+</head>
+<body>
+<body>
+  <div class="menu">
+      <div class="menu-item" onclick="toggleSubMenu('language')"><img src="./img/icons/person-svgrepo-com white.svg" alt="" checked="checked"> My Account <label class="chka" for="1.1"></label></div>
+      <div class="submenu" id="language-submenu">
+        <div class="submenu-item" onclick="toggleInfoBlock('language-eng')"><img src="./img/icons/archive-svgrepo-com.svg" alt=""> Sing in</div>
+        <div class="submenu-item" onclick="toggleInfoBlock('language-fra')"><img src="./img/icons/person-add-svgrepo-com.svg" alt=""> Log in</div>
+      </div>
+      <div class="menu-item" onclick="toggleSubMenu('privacy')"><img src="./img/icons/message-svgrepo-com.svg" alt="" checked="checked"> Message <label class="chka" for="1.1"></label></div>
+      <div class="submenu" id="privacy-submenu">
+        <div class="submenu-item" onclick="toggleInfoBlock('privacy-policy')"><img src="./img/icons/add-round-svgrepo-com.svg" alt=""> New</div>
+        <div class="submenu-item" onclick="toggleInfoBlock('data-usage')"><img src="./img/icons/message-svgrepo-com.svg" alt=""> Sent</div>
+        <div class="submenu-item" onclick="toggleInfoBlock('data-usage')"><img src="./img/icons/message-open-svgrepo-com.svg" alt=""> Income</div>
+      </div>
+      <div class="menu-item" onclick="toggleSubMenu('notification')"><img src="./img/icons/setting-svgrepo-com.svg" alt="" checked="checked"> Settings <label class="chka" for="1.1"></label></div>
+      <div class="submenu" id="notification-submenu">
+        <div class="submenu-item" onclick="toggleInfoBlock('email')"><img src="./img/icons/language-svgrepo-com.svg" alt=""> Language</div>
+        <div class="submenu-item" onclick="toggleInfoBlock('sms')"><img src="./img/icons/notification-svgrepo-com.svg" alt=""> Notifications</div>
+        <div class="submenu-item" onclick="toggleInfoBlock('sms')"><img src="./img/icons/privacy-svgrepo-com.svg" alt=""> Privacy</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="info-block" id="language-eng-info">
+    <div class="info-block-content">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, necessitatibus deserunt eos nesciunt rem nihil. Enim reprehenderit fugiat quo! Dolor iste possimus impedit aliquam suscipit dicta similique beatae, asperiores sint sequi accusantium placeat, in consectetur! Explicabo maxime vitae deserunt ex minus. Itaque sapiente officia sunt libero enim consequatur veniam qui suscipit quo placeat, dolorem velit, a reprehenderit delectus dolores quia eaque accusamus esse perspiciatis. Fuga maiores alias nobis optio sint aspernatur non, blanditiis officiis amet harum ullam tempore velit architecto voluptates adipisci debitis vel perspiciatis libero tempora dolorum dolorem? Praesentium eaque minus iusto dicta, harum laboriosam libero impedit voluptatum.</p>
+      <div class="close-btn" onclick="closeInfoBlock()"><img src="./img/icons/close-mini-1522-svgrepo-com.svg" alt=""> </div>
+    </div>
+  </div>
+
+  <div class="info-block" id="language-fra-info">
+    <div class="info-block-content">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, necessitatibus deserunt eos nesciunt rem nihil. Enim reprehenderit fugiat quo! Dolor iste possimus impedit aliquam suscipit dicta similique beatae, asperiores sint sequi accusantium placeat, in consectetur! Explicabo maxime vitae deserunt ex minus. Itaque sapiente officia sunt libero enim consequatur veniam qui suscipit quo placeat, dolorem velit, a reprehenderit delectus dolores quia eaque accusamus esse perspiciatis. Fuga maiores alias nobis optio sint aspernatur non, blanditiis officiis amet harum ullam tempore velit architecto voluptates adipisci debitis vel perspiciatis libero tempora dolorum dolorem? Praesentium eaque minus iusto dicta, harum laboriosam libero impedit voluptatum.</p>
+      <div class="close-btn" onclick="closeInfoBlock()"><img src="./img/icons/close-mini-1522-svgrepo-com.svg" alt=""> </div>
+    </div>
+  </div>
+
+  <div class="info-block" id="privacy-policy-info">
+    <div class="info-block-content">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, necessitatibus deserunt eos nesciunt rem nihil. Enim reprehenderit fugiat quo! Dolor iste possimus impedit aliquam suscipit dicta similique beatae, asperiores sint sequi accusantium placeat, in consectetur! Explicabo maxime vitae deserunt ex minus. Itaque sapiente officia sunt libero enim consequatur veniam qui suscipit quo placeat, dolorem velit, a reprehenderit delectus dolores quia eaque accusamus esse perspiciatis. Fuga maiores alias nobis optio sint aspernatur non, blanditiis officiis amet harum ullam tempore velit architecto voluptates adipisci debitis vel perspiciatis libero tempora dolorum dolorem? Praesentium eaque minus iusto dicta, harum laboriosam libero impedit voluptatum.</p>
+      <div class="close-btn" onclick="closeInfoBlock()"><img src="./img/icons/close-mini-1522-svgrepo-com.svg" alt=""> </div>
+    </div>
+  </div>
+
+  <div class="info-block" id="data-usage-info">
+    <div class="info-block-content">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, necessitatibus deserunt eos nesciunt rem nihil. Enim reprehenderit fugiat quo! Dolor iste possimus impedit aliquam suscipit dicta similique beatae, asperiores sint sequi accusantium placeat, in consectetur! Explicabo maxime vitae deserunt ex minus. Itaque sapiente officia sunt libero enim consequatur veniam qui suscipit quo placeat, dolorem velit, a reprehenderit delectus dolores quia eaque accusamus esse perspiciatis. Fuga maiores alias nobis optio sint aspernatur non, blanditiis officiis amet harum ullam tempore velit architecto voluptates adipisci debitis vel perspiciatis libero tempora dolorum dolorem? Praesentium eaque minus iusto dicta, harum laboriosam libero impedit voluptatum.</p>
+      <div class="close-btn" onclick="closeInfoBlock()"><img src="./img/icons/close-mini-1522-svgrepo-com.svg" alt=""> </div>
+    </div>
+  </div>
+
+  <div class="info-block" id="email-info">
+    <div class="info-block-content">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, necessitatibus deserunt eos nesciunt rem nihil. Enim reprehenderit fugiat quo! Dolor iste possimus impedit aliquam suscipit dicta similique beatae, asperiores sint sequi accusantium placeat, in consectetur! Explicabo maxime vitae deserunt ex minus. Itaque sapiente officia sunt libero enim consequatur veniam qui suscipit quo placeat, dolorem velit, a reprehenderit delectus dolores quia eaque accusamus esse perspiciatis. Fuga maiores alias nobis optio sint aspernatur non, blanditiis officiis amet harum ullam tempore velit architecto voluptates adipisci debitis vel perspiciatis libero tempora dolorum dolorem? Praesentium eaque minus iusto dicta, harum laboriosam libero impedit voluptatum.</p>
+      <div class="close-btn" onclick="closeInfoBlock()"><img src="./img/icons/close-mini-1522-svgrepo-com.svg" alt=""> </div>
+    </div>
+  </div>
+
+  <div class="info-block" id="sms-info">
+    <div class="info-block-content">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolore, necessitatibus deserunt eos nesciunt rem nihil. Enim reprehenderit fugiat quo! Dolor iste possimus impedit aliquam suscipit dicta similique beatae, asperiores sint sequi accusantium placeat, in consectetur! Explicabo maxime vitae deserunt ex minus. Itaque sapiente officia sunt libero enim consequatur veniam qui suscipit quo placeat, dolorem velit, a reprehenderit delectus dolores quia eaque accusamus esse perspiciatis. Fuga maiores alias nobis optio sint aspernatur non, blanditiis officiis amet harum ullam tempore velit architecto voluptates adipisci debitis vel perspiciatis libero tempora dolorum dolorem? Praesentium eaque minus iusto dicta, harum laboriosam libero impedit voluptatum.</p>
+      <div class="close-btn" onclick="closeInfoBlock()"><img src="./img/icons/close-mini-1522-svgrepo-com.svg" alt=""> </div>
+    </div>
+  </div>
+  <script src="./js/homeworks.js"></script>
+</body>
+</html>
